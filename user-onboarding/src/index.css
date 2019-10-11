@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.form-container {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 5%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15%;
+}
+
+.form__field {
+  margin: 10px 0 5px;
+  padding: 5px 10px;
+}
+
+.form__btn {
+  margin: 15px auto 10px;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.form__btn:hover {
+  background: white;
+}
+
+.form__error {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.form__field__label {
+  margin: 25px 0 5px;
+}
+
+.form__error:last-of-type {
+  margin-bottom: 10px;
+}
+
+.app__users {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
